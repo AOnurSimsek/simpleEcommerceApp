@@ -32,12 +32,12 @@ class GroceryCollectionViewCell: UICollectionViewCell {
             setCellValues(model: unwrappedModel)
             if unwrappedModel.cartCount > 0 {
                 UIView.animate(withDuration: 1.0){
-                    self.hideMinusAndLabel(true)
+                    self.showRightButtons(withAnimation: true)
                 }
             }
             else if unwrappedModel.cartCount == 0 {
                 UIView.animate(withDuration: 1.0){
-                    self.hideMinusAndLabel(false)
+                    self.hideRightButtons(withAnimation: true)
                 }
             }
         }

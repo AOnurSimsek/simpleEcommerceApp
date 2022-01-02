@@ -9,7 +9,6 @@ target 'simpleEcommerce' do
     pod 'Alamofire'
     pod 'ObjectMapper'
     pod 'SDWebImage'
-    pod 'SkeletonView'
     pod 'lottie-ios'
 
 end

@@ -2,17 +2,15 @@ PODS:
   - Alamofire (5.5.0)
   - lottie-ios (3.3.0)
   - ObjectMapper (4.2.0)
-  - SDWebImage (5.12.1):
-    - SDWebImage/Core (= 5.12.1)
-  - SDWebImage/Core (5.12.1)
-  - SkeletonView (1.26.0)
+  - SDWebImage (5.12.2):
+    - SDWebImage/Core (= 5.12.2)
+  - SDWebImage/Core (5.12.2)
 
 DEPENDENCIES:
   - Alamofire
   - lottie-ios
   - ObjectMapper
   - SDWebImage
-  - SkeletonView
 
 SPEC REPOS:
   trunk:
@@ -20,15 +18,13 @@ SPEC REPOS:
     - lottie-ios
     - ObjectMapper
     - SDWebImage
-    - SkeletonView
 
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
-  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
-  SkeletonView: 6b62a8ddbc64abb113ea3243e4a9979e5750f147
+  SDWebImage: 240e5c12b592fb1268c1d03b8c90d90e8c2ffe82
 
-PODFILE CHECKSUM: b6af3b4f6e7e6ceec6fe1861d2f1762214a67fb4
+PODFILE CHECKSUM: 8ff814591889511c75536a9f681b662a8b01e190
 
 COCOAPODS: 1.11.2
